@@ -1,0 +1,5 @@
+user_id,event_type,timestamp,metadata,browser
+123,click,2023-10-01T10:00:00Z,{"page": "home", "browser": "Chrome"}
+456,view,2023-10-01T10:05:00Z,{"page": "product", "browser": "Firefox"}
+789,purchase,2023-10-01T10:10:00Z,{"page": "checkout", "browser": "Safari"}
+abc,click,2023-10-01T10:15:00Z,{"page": "home", "browser": "Edge"}

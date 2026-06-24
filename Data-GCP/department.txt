@@ -1,0 +1,4 @@
+department_id,department_name
+D1,HR
+D2,Engineering
+D3,Marketing

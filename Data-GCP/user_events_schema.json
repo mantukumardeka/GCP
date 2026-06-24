@@ -1,0 +1,20 @@
+{
+    "BigQuery Schema": [
+      {
+        "name": "user_id",
+        "type": "INTEGER"
+      },
+      {
+        "name": "event_type",
+        "type": "STRING"
+      },
+      {
+        "name": "timestamp",
+        "type": "TIMESTAMP"
+      },
+      {
+        "name": "metadata",
+        "type": "STRING"
+      }
+    ]
+  }

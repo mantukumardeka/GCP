@@ -1,0 +1,6 @@
+employee_id,employee_name,department_id
+E1,Alice,D1
+E2,Bob,D2
+E3,Charlie,D1
+E4,David,D3
+E5,Eve,D2

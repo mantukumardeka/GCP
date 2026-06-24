@@ -1,0 +1,6 @@
+transaction_id,user_id,product_id,quantity,price,timestamp
+txn001,123,prod001,2,20.0,2023-10-01T10:00:00Z
+txn002,456,prod002,1,50.0,2023-10-01T11:00:00Z
+txn003,,prod003,3,15.0,2023-10-01T12:00:00Z
+txn004,789,prod004,0,25.0,2023-10-01T13:00:00Z
+txn005,123,prod001,2,-30.0,2023-10-01T14:00:00Z
