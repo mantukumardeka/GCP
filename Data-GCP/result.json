@@ -1,0 +1,38 @@
+[
+  {
+    "Date":"2023-01-01",
+    "City":"New York",
+    "Product":"Widget",
+    "Sales":100
+  },
+  {
+    "Date":"2023-01-02",
+    "City":"New York",
+    "Product":"Widget",
+    "Sales":150
+  },
+  {
+    "Date":"2023-01-01",
+    "City":"Los Angeles",
+    "Product":"Gadget",
+    "Sales":200
+  },
+  {
+    "Date":"2023-01-02",
+    "City":"Los Angeles",
+    "Product":"Gadget",
+    "Sales":250
+  },
+  {
+    "Date":"2023-01-01",
+    "City":"San Francisco",
+    "Product":"Widget",
+    "Sales":120
+  },
+  {
+    "Date":"2023-01-02",
+    "City":"San Francisco",
+    "Product":"Widget",
+    "Sales":130
+  }
+]
