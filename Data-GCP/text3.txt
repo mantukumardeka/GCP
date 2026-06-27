@@ -1,0 +1,30 @@
+import pandas as pd
+
+def add_validation_1(df: pd.DataFrame, pivot_wp: pd.DataFrame) -> pd.DataFrame:
+    """
+    Add Validation #1 column with the following business logic:
+    - If Source = 'Revaluation' -> 'Revaluation'
+    - If Source = 'Payables' -> 'Manual Review'
+    - Else -> Lookup from Related_Accrual_Account_WP
+    """
+
+    related_acc_lookup = dict(
+        zip(pivot_wp["id"], pivot_wp["related_accrual_account_wp"])
+    )
+
+    def get_validation_1(row):
+        if row["source"] == SOURCE_REVALUATION:
+            return SOURCE_REVALUATION
+        elif row["source"] == SOURCE_PAYABLES:
+            return VALIDATION_MANUAL_REVIEW
+        else:
+            return related_acc_lookup.get(
+                row["id"],
+                "No_Match_Found"
+            )
+
+    df["validation_1"] = df.apply(get_validation_1, axis=1)
+
+    logger.info(f"Validation #1 added with {len(df)} rows processed")
+
+    return df
